@@ -1,0 +1,56 @@
+//In JavaScript, a variable is a container used to store data values. Variables allow you to store, modify, and reference data throughout your program
+//Declaring a Variable
+//You can declare a variable using three main keywords:
+
+//var (Redeclare & ReUpdate)
+//var message = "Hello, world!";
+//console.log(message); // Output: Hello, world!
+
+//let (Redeclare)
+//var message = "Hello, world!";
+//console.log(message); // Output: Hello, world!
+
+//Const ( not redeclare & reupdate)
+//const person = { name: "John", age: 30 };
+//person.age = 31; // This is allowed, as the object is mutable
+//console.log(person.age);
+
+//Variable Types in JavaScript
+//Primitive types:
+
+//String: Represents text
+//let name = "Alice";
+
+//Number: Represents both integer and floating-point numbers.
+//let score = 98.5;
+
+//Boolean: Represents true or false.
+//let isActive = true;
+
+//Null: Represents the intentional absence of any object value.
+//let value = null;
+
+//Undefined: A variable that has been declared but not assigned a value.
+//let data;
+
+//Non-primitive types (objects):
+
+//Object: A collection of key-value pairs.
+//let person = { name: "Alice", age: 30 };
+
+//Array: A collection of ordered elements.
+//let numbers = [1, 2, 3, 4];
+
+let username = "Alice";   // String
+const userAge = 30;       // Number
+let isActive = true;      // Boolean
+
+// Reassigning the value of a variable declared with 'let'
+username = "Bob";
+
+// Trying to reassign a 'const' variable (this will cause an error)
+// userAge = 35; // Error: Assignment to constant variable.
+
+console.log(username); // Output: Bob
+console.log(userAge);  // Output: 30
+console.log(isActive); // Output: true
