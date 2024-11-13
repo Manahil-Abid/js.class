@@ -1,3 +1,7 @@
 //In JavaScript, the alert() function is used to display an alert dialog box with a specified message. 
 //The dialog box typically contains an "OK" button to dismiss it. 
 //This is often used for debugging or notifying the user about something on the page.
+//alert("Hello, world!");
+
+//let userName = "John";
+//alert("Welcome, " + userName + "!");
